@@ -84,20 +84,7 @@ const UserRegistration = () => {
     console.log('AccountFailed:', errorInfo);
   };
 
-  // useEffect(() => {
-  //   // setlistname(v=>{
-  //   //         if(basicInfo==null)
-  //   //         {
-  //   //             // return v
-  //   //             return basicInfo
-  //   //         }else
-  //   //         {
-  //   //             // return v.filter(item=>item.title.includes(input))
-  //   //             return Nav.filter(item=>item.title.includes(input))
-  //   //         }
-  //   //     }) 
-  //   console.log('basicInfo:', basicInfo);
-  // }, [basicInfo])
+
 
   const onBasicInfoFinishFailed = errorInfo => {
     console.log('BasicInfoFailed:', errorInfo);
